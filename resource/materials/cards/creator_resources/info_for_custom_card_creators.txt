@@ -1,0 +1,14 @@
+Required files for a card to function:
+"cardface_cardname.png"
+"cardname-ability1.png"
+"cardname-ability2.png"
+"cardname-ability3.png"
+Card backs are 512x1024
+Card faces are 1024x1024
+
+Use the examples, you can see that Card Faces are squashed back into 512x1024 when on long cards, and cropped in short cards.
+If it's a foil card, add "-foil01", "-foil02", and "-foil03" to the end of your "cardface_cardname" files. Foil cards cannot take any more or less than 3 layers.
+If your foil card doesn't have 3 layers, and you didn't add a default card face, your card WILL show up as missingno.
+If you desperately need less than 3 layers, just put a blank png in.
+There's no guidance for making custom tables yet.
+Just because you made the resources for your card doesn't mean it quite works yet either.
